@@ -1,0 +1,109 @@
+@font-face {
+	font-family: sahel;
+	src: local(sahel), url('../fonts/Sahel.eot') format('eot'), url('../fonts/Sahel.ttf') format('truetype'),
+		url('../fonts/Sahel.woff') format('woff');
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: sahel;
+	src: local(sahel), url('../fonts/Sahel-Bold.eot') format('eot'), url('../fonts/Sahel-Bold.ttf') format('truetype'),
+		url('../fonts/Sahel-Bold.woff') format('woff');
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: vazir;
+	src: local(vazir), url('../fonts/Vazir.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: yekan;
+	src: local(yekan), url('../fonts/Yekan.ttf') format('truetype');
+}
+
+:root {
+	color: rgba(255, 255, 255, 0.87);
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+}
+
+* {
+	font-family: vazir, yekan, sahel, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+}
+
+html {
+	scroll-behavior: smooth;
+	background-color: #121212 !important;
+	color: #e1e1e1 !important;
+}
+
+a {
+	font-weight: 500;
+	color: #533acc;
+	text-decoration: inherit;
+	transition: all 0.3s;
+}
+a:hover {
+	color: #535bff;
+}
+
+body {
+	margin: 0;
+	display: flex;
+	min-width: 320px;
+	min-height: 100vh;
+	padding-top: 5rem;
+}
+
+h1 {
+	font-size: 3.2em;
+	line-height: 1.1;
+}
+
+button {
+	border-radius: 8px;
+	border: 1px solid transparent;
+	padding: 0.6em 1.2em;
+	font-size: 1em;
+	font-weight: 500;
+	font-family: inherit;
+	background-color: #1a1a1a;
+	cursor: pointer;
+	transition: border-color 0.25s;
+	color: #e1e1e1;
+}
+button:hover {
+	border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+	outline: 4px auto -webkit-focus-ring-color;
+}
+
+input[type='checkbox'] {
+	cursor: pointer;
+}
+
+.error {
+	background-color: #cc0000;
+	color: #fff;
+	width: 80%;
+	box-shadow: 0 0 1rem rgba(155, 0, 0, 0.5);
+	border-radius: 0.3rem;
+	padding: 0.4rem 0.8rem;
+}
+
+.success {
+	background-color: #058810;
+	color: #fff;
+	width: 80%;
+	box-shadow: 0 0 0.4rem rgba(0, 155, 0, 0.5);
+	border-radius: 0.3rem;
+	padding: 0.4rem 0.8rem;
+}

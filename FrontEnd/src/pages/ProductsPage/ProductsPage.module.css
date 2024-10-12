@@ -1,0 +1,26 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: start;
+	width: 95vw;
+	gap: 1rem;
+}
+
+.container .content {
+	display: flex;
+	gap: 1rem;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 65%;
+	box-shadow: 0 0 1rem rgba(0, 0, 0, 0.8);
+	margin: 3rem 0.5rem;
+	padding: 2rem 1rem;
+}
+
+@media screen and (max-width: 800px) {
+	.container {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}

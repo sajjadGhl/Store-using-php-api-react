@@ -1,0 +1,7 @@
+#root {
+	width: clamp(100%, 100%, 80rem);
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}

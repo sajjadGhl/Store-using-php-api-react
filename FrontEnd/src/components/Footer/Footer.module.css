@@ -1,0 +1,10 @@
+.container {
+    background-color: #0a0b0c;
+    padding: 1.5rem;
+}
+
+.container span {
+    color: #7a8b9c;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
